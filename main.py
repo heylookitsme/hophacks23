@@ -5,7 +5,7 @@ value = 10
 page = """
 #HopHacks23: [Insert Title Here]
 
-ahh literally what is this <|{value}|> <br/>
+doctor bear to the rescue! <|{value}|> <br/>
 <|{value}|slider|>
 
 """
