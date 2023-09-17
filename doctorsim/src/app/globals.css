@@ -1,22 +1,53 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: red;
+  background-image: url("/img/home screen.png");
+  background-size:cover;
+}
+
+main{
+  text-align:center;
+  font-family: 'Supermercado One', cursive;
+  color:white;
+
+}
+
+header{
+  
+  font-size:40px;
+  text-align:center;
+}
+
+.bear_doctor{
+  size:400px;
+
+}
+.flex-container{
+  display:flex;
+  justify-content:center;
+  flex-flow:column wrap;
+/*justify-content:center;*/
+ 
+
+}
+
+#begin:link{
+color:white;
+}
+
+#begin:visited{
+  color:white;
+}
+ 
+#begin:hover{
+  font-weight: 200px;
+  color:grey;
+}
+
+#begin:active{
+  color:white;
+}
+
+div{
+  background-image: url("/img/how are you.png");
+  background-size:cover
 }
